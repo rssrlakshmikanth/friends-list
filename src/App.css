@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+.card-spacing {
+  margin-bottom: 0.5em;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input-spacing {
+  margin: 1em;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-bar-color {
+  background-color: blueviolet;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.app-logo-div {
   color: white;
+  font-size: x-large;
+  font-weight: 400;
+  margin: auto 1em;
 }
-
-.App-link {
-  color: #61dafb;
+.app-search-div {
+  color: white;
+  font-size: x-large;
+  font-weight: 400;
+  margin: auto 1em;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pagination-spacing {
+  margin-bottom: 2em;
+}
+.friend-card-desc-section {
+  color: #a9a9a9;
+}
+.add-button-spacing {
+  margin-left: 0.5em;
+}
+.greyed-out-div {
+  border: 2px dashed rgba(211, 211, 211, 0.616);
+  padding: 3rem;
+  border-radius: 1em;
+  color: lightgrey;
+  font-size: 1.5rem;
+}
+.empty-icon-spacing {
+  margin-right: 1rem;
 }
